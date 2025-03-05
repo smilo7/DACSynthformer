@@ -3,8 +3,8 @@ import soundfile as sf
 import numpy as np
 from scipy.signal import resample
 
-input_folder = "input_wavs"
-output_folder = "output_wavs"
+input_folder = "my_input_data"
+output_folder = "testdata/dac-train-mine/raw"
 
 os.makedirs(output_folder, exist_ok=True)
 
